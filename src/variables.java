@@ -1,9 +1,7 @@
-
 import java.util.Scanner;
 
-public class variables {
+public class Variables {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         // připomínka z minulé hodiny
 
         // Rozdělte datové typy k proměnnám
@@ -22,19 +20,6 @@ public class variables {
          * Poté je:
          * Vypište, Přehoďte, Vypište,
          */
-        System.out.println("PREHAZOVANI CISEL");
-        int cislo1 = sc.nextInt();
-        int cislo2 = sc.nextInt();
-
-        System.out.println(cislo1);
-        System.out.println(cislo2);
-
-        int cislo3 = cislo1;
-        cislo1 = cislo2;
-        cislo2 = cislo1;
-
-        System.out.println(cislo1);
-        System.out.println(cislo2);
 
 
         /**
@@ -42,16 +27,6 @@ public class variables {
          * Napište jednoduchou kalkulačku, která bude umět +, -, *, / nad dvěma čísly z množiny R (Reálných čísel).
          * Výsledky vypište na konzoli
          */
-        System.out.println("JEDNODUCHA KALKUKACKA");
-        double a = sc.nextDouble();
-        double b = sc.nextDouble();
-
-        System.out.println(a + b);
-        System.out.println(a - b);
-        System.out.println(a + b);
-        System.out.println(a / b);
-
-
 
         /**
          * CV 3
@@ -59,31 +34,11 @@ public class variables {
          * Výsledek vypište na konzoli
          */
 
-        boolean vysledek = 'A' + 'B' + 'C' > 300;
-
         /**
          * CV 4
          * Zeptejte se uživatele na jeho, jméno, příjmení, PSČ a rodné číslo
          * Údaje pak uživateli vypište
          */
-        System.out.println("UDAJE O UZIVATELI");
-
-        System.out.println("zadej jmeno");
-        String jmeno = sc.next();
-
-        System.out.println("zadej prijmeni");
-        String prijmeni = sc.next();
-
-        System.out.println("zadej PSC");
-        int psc = sc.nextInt();
-
-        System.out.println("zadej svoje rodne cislo");
-        String rodnecislo = sc.next();
-
-        System.out.println(jmeno);
-        System.out.println(prijmeni);
-        System.out.println(psc);
-        System.out.println(rodnecislo);
 
         /**
          * CV 5
@@ -99,32 +54,6 @@ public class variables {
          System.out.println();
          }
          */
-        /**strany ctverce
-         *
-         */
-        System.out.println("STRANY OBDELNIKU NEBO CTVERCE");
-
-        System.out.println("zadej starnu a");
-        int x = sc.nextInt();
-
-        System.out.println("zadej stranu b");
-        int y = sc.nextInt();
-
-        System.out.println(2*(x+y));
-
-        /** celsius na farenheit
-         *
-         */
-        // F = C * (9/5) + 32
-        System.out.println("CELSIUS NA FARENHEIT");
-
-        System.out.println("zadej teplotu ve stupnich celsius");
-        double celsius = sc.nextDouble();
-        double F = celsius * (9f/5) + 32;
-
-        System.out.println("teplota v F" + F);
-
-
 
         /*
         Pokud byste chtěli vypisovat barevně, lze využít tyto řetězce
