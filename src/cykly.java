@@ -15,7 +15,7 @@ public class cykly {
             cislo++; //vzdy po cyklu zvětší číslo o 1
         }
 
-         */
+
 
         //kostka
 
@@ -54,8 +54,8 @@ public class cykly {
 
         int czisllo = rng.nextInt(1,7);
         do{
-            czi
+            czizsko
             System.out.println("Hodil jsi" + czisko);
-        }
+        }}*/
     }
 }
