@@ -27,6 +27,5 @@ public class arayListEvidenceTrid {
 
         System.out.println("1. třída: " + seznamTrid.get(0));
         //seznamTrid.size(); || pocetTrid
-        for
     }
 }
