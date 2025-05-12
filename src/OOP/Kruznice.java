@@ -11,7 +11,7 @@ public class Kruznice {
         return obvod;
     }
 
-    public double obsah(){
+    public void obsah(){
         double obsah = Math.PI * polomer * polomer;
     }
 
